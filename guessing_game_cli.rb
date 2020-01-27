@@ -6,6 +6,7 @@ def run_guessing_game
   user_guess = gets.chomp
   user_guess.to_i
   
+  
   if user_guess == "exit"
     puts "Goodbye!"
   end
