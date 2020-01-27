@@ -1,4 +1,4 @@
-require.pry
+require 'pry'
 
 def run_guessing_game
   #puts "Guess a # between 1 and 6: "
