@@ -1,7 +1,7 @@
 def run_guessing_game
 
   cpu_guess = rand(6) + 1
-  cpu_guess += 1
+  
   
   user_guess = gets.chomp
   user_guess.to_i
