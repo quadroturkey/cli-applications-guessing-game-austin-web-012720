@@ -9,6 +9,6 @@ def run_guessing_game
     puts "You guessed the correct number!"
   end
   if user_guess != cpu_guess
-    puts "Sorry! The computer guessed #{cpu_guess+1}."
+    puts "Sorry! The computer guessed #{cpu_guess}."
   end
 end
