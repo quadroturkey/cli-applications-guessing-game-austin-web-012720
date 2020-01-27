@@ -1,7 +1,7 @@
 def run_guessing_game
   cpu_guess = rand(1..6)
   user_guess = gets.chomp
-  
+  puts ""
   if user_guess == "exit"
     puts "Goodbye!"
   end
