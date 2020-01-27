@@ -6,4 +6,5 @@ def run_gessing_game
   end
   if user_guess != cpu_guess
     puts "Sorry! The computer guessed #{cpu_guess}."
+  end
 end
