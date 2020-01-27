@@ -1,7 +1,7 @@
 def run_guessing_game
+  puts "Guess a # between 1 and 6: "
   cpu_guess = rand(1..6)
   user_guess = gets.chomp
-  puts "Guess a # between 1 and 6: "
   if user_guess == "exit"
     puts "Goodbye!"
   end
